@@ -1,0 +1,170 @@
+html { min-height: 100%;
+       height:100%;
+       margin:0;
+       background-image: linear-gradient(to bottom, #fff, #f9cb5c);
+       font-family:sans-serif;
+       color:#332903;}
+
+body { max-width: 100%;
+       display:flex;
+       flex-direction:column;
+       background-color:transparent;
+       font-family:sans-serif;
+       color:#332903;
+       font-size:100%;
+       min-height:100%;
+       min-width: 300px;
+       height:100%;
+       float:center;
+       margin:auto;
+       position:relative;}
+
+Header {color:#3E7216;
+        text-align:center;
+        width:100%;}
+
+.container {
+  position: relative;
+}
+    
+Nav {
+     text-align: center;
+     width:100%;
+     min-width:100px;
+     font-weight:bold;
+     }
+  nav a:link {color: #3e7216; padding: 10px;width:100%;
+     min-width:50px; }
+  nav a: visited { color: #7A3F28; }
+  nav a:hover { color: #ea4f00;}
+  nav ul {list-style-type: none; padding-left: 0;}
+
+
+.nav-item {padding:0px 15px;}
+.nav-link { color:#3e7216;
+            font-weight: bolder;text-shadow:
+    -1px -1px 0 #dfdfdf,
+    1px -1px 0 #dfdfdf,
+    -1px 1px 0 #dfdfdf,
+    1px 1px 0 #dfdfdf;}
+  .nav-link a: link {color: #f28500; padding: 10px; }
+  .nav-link a: visited { color: #7A3F28; }
+  .nav-link a: hover { color: #ea4f00;}
+  .nav-link ul {list-style-type: none; padding-left: 0;}
+
+main { min-width:100%;
+       width:100%;
+       position:relative;}
+
+#floatright {display: inline; float:right;
+             padding:20px;}
+
+#floatleft  {display: block; float:left;
+             padding:20px;}
+
+
+.clear {clear:both;}
+
+p {color:#000; font-size-adjust: auto; }
+h1 {font-weight: bold;color:#004406; font-size: 2.5em;}
+h2 {font-weight: bold;color:#f28500; font-size: 2em;}
+h3 {font-weight: bold;font-size: 1.5em;}
+h4 {font-size:1.4em;
+    font-weight: bold;
+    background-color:skyblue;}
+
+ul {display:block 
+       max-width: 95%;
+    font-family:sans-serif;
+       font-size:100%}
+
+.ul {display:block 
+       max-width: 80%;
+       margin-left:200px;
+    font-family:sans-serif;
+       color:#3F2860;
+       font-size:100%}
+
+
+form {margin:auto;
+      float:center;
+      }
+
+dt {font-weight: bold;}
+
+.mainimg {float:left; 
+    margin-right:30px; 
+    margin-bottom: 30px;
+    border: 2px inset #000;}
+
+footer { margin-top:auto;
+         height:auto;
+         font-size:small;
+         font-style:italic;
+         text-align: center;
+         padding: 15px 0px;
+         border:3px inset hsla(125, 100%, 13%, 0.2)
+         }
+
+.wrapper { padding: 1em 2em 0em 2em;
+           float:center;
+           width:90%;
+           margin:auto;
+           margin-right: auto;   
+           margin-left: auto;
+           display:block;
+           float:center;
+           text-align: center;}
+
+#wrapper1 { margin-right: auto;   
+           margin-left: auto;
+           display:block;}
+
+#tag { font-style: italic; }
+
+table {margin:auto;
+       }
+
+td { margin-top: 50px; 
+     padding: 5px 10px 5px 10px;
+     vertical-align: top;}
+td img {    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%}
+
+th {font-weight: bold;
+    color:#004406;
+    font-size: 20px;}
+
+image {text-align:center;
+            float:center;
+            border: 2px inset #000;}
+#img {position:absolute;
+      left:0;
+      top:0;}
+
+.leftnav {display: block;
+     float:left;
+     text-align: center;
+     width:10%;
+     min-width:100px;
+     font-weight:bold;
+     padding-top: 10px;
+     margin:auto;
+     min-height; 200px;
+     }
+  .leftnav a:link {color:  #f28500; border: 2px solid #004406; padding: 12px; margin:10px 0px 5px 10px;display:block; width:100%;}
+  .leftnav a: visited { color: #497777; }
+  .leftnav a:hover { color: #f28500; border: 3px solid #004406;}
+  .leftnav ul {list-style-type: none; padding-left: 0;}
+
+.floatmain { padding :1em 2em 0em 2em;
+    margin-left:200px;
+    min-height: 300px;}
+
+.video {max-height: 800px;
+    width:100%;
+    min-height:240px; 
+    max-height:800px;
+    position: relative; }
